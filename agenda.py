@@ -2,23 +2,29 @@ agenda = {}
 
 def agregar_contacto():
     """Funcion para agregar contacto"""
+    nombre = input('Nombre del nuevo contacto:')
+    numero = input('Ingresa el número')
+    agenda[nombre] = numero
+    print('Contacto %s agregado' % nombre)
     
 
 def remover_contacto():
     """Funcion para eliminar contacto"""
+    
 
 def actualizar_contacto():
     """Funcion para actualizar contacto"""
+    
 
 
 def ver_contacto():
     """Funcion para ver contacto"""
+    
 
 
 def ver_todos():
     """Funcion para ver todos los contactos"""
-
-
+    
 
 
 print('Bienvenido a la agenda')
