@@ -10,6 +10,13 @@ def agregar_contacto():
 
 def remover_contacto():
     """Funcion para eliminar contacto"""
+    nombre = input('Nombre del contacto: ')
+    try:
+        del (agenda[nombre])
+    except KeyError:
+        'Ese contacto no existe'
+    else:
+        print('Contacto %s eliminado' % nombre)
     
 
 def actualizar_contacto():
